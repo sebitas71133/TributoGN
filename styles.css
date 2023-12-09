@@ -1,0 +1,160 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    background-color: #292929;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header {
+    background-color: aquamarine;
+   
+}
+
+nav {
+    width: 100%;
+    background-color: red;
+    height: auto;
+}
+
+footer {
+    background-color: #292929;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: cyan;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li button{
+    background-color: #fb7e14;
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 100%;
+    color: #ffffff;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+nav ul li button:hover {
+    background-color: #efaa6d;
+}
+
+.tarjeta {
+    display: flex;
+    
+    align-items: center;
+}
+
+section {
+    background-color: 	#151515;
+    padding: 2rem;
+    
+
+}
+
+article {
+    background-color: #292929;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 90%;
+    /* position: absolute; */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenido{
+   width: 50vw;
+   color: #fb7e14;
+}
+
+
+
+
+.contenido h3 {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1rem;
+   
+}
+
+.contenido ul {
+    list-style-type: circle;
+    padding: 1rem;
+    
+}
+
+.info {
+    margin: 1rem 0rem 1rem 5rem;
+}
+
+.info a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fb7e14;
+}
+
+.info a:hover {
+    color: #efaa6d;
+}
+
+img {
+    margin: 1rem;
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+@media (max-width:720px){
+    
+    .tarjeta{
+        flex-direction: column;
+        margin-top: 4rem;
+        justify-content: center;
+        align-items:  flex-end; 
+    }
+
+    article {
+        overflow: scroll;
+    }
+
+    nav ul li button {
+        font-size: 0.75rem;
+        padding: 1rem 0;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    section {
+        padding: 1rem 0rem;
+       
+    }
+
+    p,
+    .info a,
+    li {
+        font-size: 0.8rem;
+    }
+
+    .contenido{
+        width: 80vw;
+        
+    }
+}
