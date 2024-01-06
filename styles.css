@@ -167,7 +167,19 @@ article {
     
 }
 
+@media (min-height:1000px){
+    article{
+        height: 50vh;   
+    }
 
+    .tributo{
+        margin-top: 2rem;
+    }
+
+    section {
+        padding: 0;
+    }
+}
 
 @media (max-width:768px){
     
@@ -176,6 +188,7 @@ article {
         margin-top: 4rem;
         justify-content: center;
         align-items:  center; 
+        
     }
 
     .tributo {
