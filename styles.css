@@ -95,6 +95,23 @@ article {
    
 }
 
+#citas li {
+    font-style: italic;
+}
+
+.tributo {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    font-family: Reaver;
+    
+}
+
+.tributo:hover{
+    color: #fb7e14;
+}
+
 .contenido{
     width: 50%;
     display: flex;
@@ -161,6 +178,10 @@ article {
         align-items:  center; 
     }
 
+    .tributo {
+        margin-top: 4rem;
+    }
+
    
     .imagen {
         width: 100%;
@@ -184,8 +205,14 @@ article {
 
 @media (max-width:480px){
     nav ul li button {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         padding: 1rem 0;
+    }
+
+    .tributo {
+        margin-bottom: 0;
+        font-size: 3rem;
+        margin-top: 5rem;
     }
 }
 
@@ -198,6 +225,7 @@ footer {
     gap: 1rem;
     background-color: black;
     padding: 1rem;
+    border-top: 2px solid rgb(255, 255, 255,0.3);
 }
 
 
@@ -228,6 +256,15 @@ footer {
 @media (max-width : 480px) {
     footer {
         grid-template-columns: repeat(1,1fr);
+        gap: 0rem;
+    }
+
+    .linksSection {
+        padding: 0.5rem;
+    }
+
+    article {
+        height: 100vh;
     }
 }
 
