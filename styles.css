@@ -85,13 +85,14 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;    
 }
 
 article {
     /* background-color: rgb(41, 41, 41,0.2); */
     margin: 0 auto;
     width: 100%;
-    height: 80%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -106,9 +107,9 @@ article {
     color: white;
     font-size: 4rem;
     text-align: center;
-    margin-bottom: 4rem;
-    font-family: Reaver;
     
+    font-family: Reaver;
+    margin: 2rem 0;
 }
 
 .tributo:hover{
@@ -168,6 +169,10 @@ article {
     
 }
 
+.tributo {
+    
+}
+
 
 @media (max-width:768px){
     
@@ -179,6 +184,9 @@ article {
         
     }
 
+    main {
+        margin: 11rem 0;
+    }
    
     .imagen {
         width: 100%;
@@ -187,7 +195,7 @@ article {
     section {
         padding: 0.5rem;
         margin: 1rem;
-        margin-top: 5rem;
+       
     }
 
     p,
@@ -208,16 +216,16 @@ article {
     }
 
     .tributo {
-        margin-bottom: 0;
+        
         font-size: 3rem;
        
     }
 }
 
 @media (min-height:800px){
-    .tributo{
+    /* .tributo{
         margin-top: 2rem;
-    }
+    } */
 }
 
 /* FOOTER */
