@@ -1,169 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="/img/steam48.png" />
+
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Tributo a Gabe Newell</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <button id="btnBiografia" onclick="tarjetas(this)">Biografia</button>
-                </li>
-                <li>
-                    <button id="btnContribuciones" onclick="tarjetas(this)">Contribuciones</button>
-                </li>
-                <li>
-                    <button id="btnFilantropia" onclick="tarjetas(this)">Filantropia</button>
-                </li>
-                <li>
-                    <button id="btnCitas" onclick="tarjetas(this)">Citas</button>
-                </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>
+            <button id="btnBiografia" onclick="tarjetas(this)">
+              Biografia
+            </button>
+          </li>
+          <li>
+            <button id="btnContribuciones" onclick="tarjetas(this)">
+              Contribuciones
+            </button>
+          </li>
+          <li>
+            <button id="btnFilantropia" onclick="tarjetas(this)">
+              Filantropia
+            </button>
+          </li>
+          <li>
+            <button id="btnCitas" onclick="tarjetas(this)">Citas</button>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        
-        <section>
-            <div class="tributo">GABE NEWELL</div>
-            <article id="biografia">
-                <div class="contenido">
-                    <h3>Biografia</h3>
-                    <p>Gabe Newell es un empresario y desarrollador de software estadounidense, cofundador y director gerente de Valve Corporation. Antes de fundar Valve en 1996, Gabe trabajó para Microsoft, donde contribuyó al desarrollo del sistema operativo Windows.
-                        <br> <br>
-                        En Valve, Gabe ha sido una figura clave en la creación y expansión de la plataforma de distribución digital Steam, que se ha convertido en una de las más grandes del mundo. Steam no solo ha cambiado la forma en que los videojuegos son distribuidos, sino que también ha impactado significativamente en la industria del entretenimiento digital.
-                        <br><br>
-                        Gabe Newell también es conocido por su enfoque único y su filosofía en el desarrollo de videojuegos. Valve es famosa por su estructura de organización plana, donde los empleados tienen la libertad de trabajar en proyectos que les apasionan. Esto ha llevado a la creación de juegos aclamados como <strong>"Half-Life"</strong>, "Portal", y "Counter-Strike".</p>
-                </div>
-                <div class="imagen">
-                    <img src="img/bio.jpg" alt="biografia">
-                </div>
-            </article>
-            <article id="contribuciones">
-                <div class="contenido">
-                    <h3>Contribuciones</h3>
-                    <ul>
-                    
-                    
-                        <li>
-                            <h4>Modelo de Negocio para Desarrolladores:</h4>
-                            <p>Steam introdujo un modelo de negocio que permitía a los desarrolladores de juegos acceder a una audiencia global sin depender de distribuidores tradicionales. Esto abrió oportunidades para desarrolladores independientes y estudios más pequeños.</p>
-                        </li>
-                        <br>
-                        <li>
-                            <h4>Motor Source y Herramientas para Desarrolladores:</h4>
-                            <p>Valve desarrolló el motor de juego Source, utilizado en juegos como Half-Life 2 y Counter-Strike: Source. Además, proporcionaron herramientas y recursos para que la comunidad de modding creara contenido personalizado.</p>
-                        </li>
-                        <br>
-                        <li>
-                            <h4>Steam</h4>
-                            <p>Valve Corporation, bajo la dirección de Gabe Newell, lanzó Steam en 2003. Steam es una plataforma de distribución digital que ha transformado la forma en que se compran, descargan y juegan videojuegos. Se ha convertido en la plataforma líder para la distribución de juegos en PC.</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="imagen">
-                    <img src="img/contri.jpeg" alt="contribucion">
-                </div>
-            </article>
-            <article id="filantropia">
-                <div class="contenido">
-                    <h3>Filantropia</h3>
-                    <p>
-                        Gabe Newell y su esposa, Lisa Mennet, han participado activamente en obras de caridad y donaciones. Han contribuido a organizaciones benéficas y proyectos relacionados con la investigación médica, la educación y el bienestar de la sociedad.
-                        <br><br>
-                        Newell es el propietario de Inkfish, una organización de investigación marina y, a su vez, del Hadal Exploration System, una plataforma privada de exploración de aguas profundas. Por otro lado, en 2014 fundó, junto a Yahn Bernier, el equipo de automovilismo The Heart of Racing, que recauda fondos para organizaciones benéficas para niños en Seattle y Nueva Zelanda.
-                    </p>
-                    
-                </div>
-                <div class="imagen">
-                    <img src="img/fila.jpeg" alt="filantropia">
-                </div>
-            </article>
-            <article id="citas">
-                <div class="contenido">
-                    <h3>Citas</h3>
-                    <ul>
-                        <li>"Creo que la innovación es lo que más importa en los negocios. Si buscas en donde está la oportunidad, la verdadera oportunidad es la de construir la compañía que hará cosas que nadie más está dispuesto a hacer".</li>
-                        <br>
-                        <li>"Cuando trabajamos en algo, siempre estamos motivados por cosas que nos parecen divertidas. Cuando trabajas en algo que realmente te gusta, no importa cuán difícil sea, ni cuánto tiempo lleva, ni cuán desafiante sea; lo disfrutas".</li>
-                        <br>
-                        <li>"Nuestros clientes son conscientes de que somos mucho más felices al hacer cosas que a ellos les gustan que al hacer cosas que nosotros mismos inventamos".</li>
-                        <br>
-                        <li>"Aprender a ser productivo es el mayor obstáculo para la mayoría de las personas. Eso ha sido lo más difícil para mí. Aún no lo he resuelto".</li>
-                        <br>
-                        <li>"La forma más efectiva de generar ingresos es a través de los servicios que mejoran la experiencia del usuario".</li>
-                        <br>
-                       
-
-                      
-                    </ul>
-                </div>
-                <div class="imagen">
-                    <img src="img/citas.jpeg" alt="citas">
-                </div>
-            </article>
-            
-        </section>
+      <section>
+        <div class="tributo">GABE NEWELL</div>
+        <article id="biografia">
+          <div class="contenido">
+            <h3>Biografia</h3>
+            <p>
+              Gabe Newell es un empresario y desarrollador de software
+              estadounidense, cofundador y director gerente de Valve
+              Corporation. Antes de fundar Valve en 1996, Gabe trabajó para
+              Microsoft, donde contribuyó al desarrollo del sistema operativo
+              Windows. <br />
+              <br />
+              En Valve, Gabe ha sido una figura clave en la creación y expansión
+              de la plataforma de distribución digital Steam, que se ha
+              convertido en una de las más grandes del mundo. Steam no solo ha
+              cambiado la forma en que los videojuegos son distribuidos, sino
+              que también ha impactado significativamente en la industria del
+              entretenimiento digital.
+              <br /><br />
+              Gabe Newell también es conocido por su enfoque único y su
+              filosofía en el desarrollo de videojuegos. Valve es famosa por su
+              estructura de organización plana, donde los empleados tienen la
+              libertad de trabajar en proyectos que les apasionan. Esto ha
+              llevado a la creación de juegos aclamados como
+              <strong>"Half-Life"</strong>, "Portal", y "Counter-Strike".
+            </p>
+          </div>
+          <div class="imagen">
+            <img src="img/bio.jpg" alt="biografia" />
+          </div>
+        </article>
+        <article id="contribuciones">
+          <div class="contenido">
+            <h3>Contribuciones</h3>
+            <ul>
+              <li>
+                <h4>Modelo de Negocio para Desarrolladores:</h4>
+                <p>
+                  Steam introdujo un modelo de negocio que permitía a los
+                  desarrolladores de juegos acceder a una audiencia global sin
+                  depender de distribuidores tradicionales. Esto abrió
+                  oportunidades para desarrolladores independientes y estudios
+                  más pequeños.
+                </p>
+              </li>
+              <br />
+              <li>
+                <h4>Motor Source y Herramientas para Desarrolladores:</h4>
+                <p>
+                  Valve desarrolló el motor de juego Source, utilizado en juegos
+                  como Half-Life 2 y Counter-Strike: Source. Además,
+                  proporcionaron herramientas y recursos para que la comunidad
+                  de modding creara contenido personalizado.
+                </p>
+              </li>
+              <br />
+              <li>
+                <h4>Steam</h4>
+                <p>
+                  Valve Corporation, bajo la dirección de Gabe Newell, lanzó
+                  Steam en 2003. Steam es una plataforma de distribución digital
+                  que ha transformado la forma en que se compran, descargan y
+                  juegan videojuegos. Se ha convertido en la plataforma líder
+                  para la distribución de juegos en PC.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="imagen">
+            <img src="img/contri.jpeg" alt="contribucion" />
+          </div>
+        </article>
+        <article id="filantropia">
+          <div class="contenido">
+            <h3>Filantropia</h3>
+            <p>
+              Gabe Newell y su esposa, Lisa Mennet, han participado activamente
+              en obras de caridad y donaciones. Han contribuido a organizaciones
+              benéficas y proyectos relacionados con la investigación médica, la
+              educación y el bienestar de la sociedad.
+              <br /><br />
+              Newell es el propietario de Inkfish, una organización de
+              investigación marina y, a su vez, del Hadal Exploration System,
+              una plataforma privada de exploración de aguas profundas. Por otro
+              lado, en 2014 fundó, junto a Yahn Bernier, el equipo de
+              automovilismo The Heart of Racing, que recauda fondos para
+              organizaciones benéficas para niños en Seattle y Nueva Zelanda.
+            </p>
+          </div>
+          <div class="imagen">
+            <img src="img/fila.jpeg" alt="filantropia" />
+          </div>
+        </article>
+        <article id="citas">
+          <div class="contenido">
+            <h3>Citas</h3>
+            <ul>
+              <li>
+                "Creo que la innovación es lo que más importa en los negocios.
+                Si buscas en donde está la oportunidad, la verdadera oportunidad
+                es la de construir la compañía que hará cosas que nadie más está
+                dispuesto a hacer".
+              </li>
+              <br />
+              <li>
+                "Cuando trabajamos en algo, siempre estamos motivados por cosas
+                que nos parecen divertidas. Cuando trabajas en algo que
+                realmente te gusta, no importa cuán difícil sea, ni cuánto
+                tiempo lleva, ni cuán desafiante sea; lo disfrutas".
+              </li>
+              <br />
+              <li>
+                "Nuestros clientes son conscientes de que somos mucho más
+                felices al hacer cosas que a ellos les gustan que al hacer cosas
+                que nosotros mismos inventamos".
+              </li>
+              <br />
+              <li>
+                "Aprender a ser productivo es el mayor obstáculo para la mayoría
+                de las personas. Eso ha sido lo más difícil para mí. Aún no lo
+                he resuelto".
+              </li>
+              <br />
+              <li>
+                "La forma más efectiva de generar ingresos es a través de los
+                servicios que mejoran la experiencia del usuario".
+              </li>
+              <br />
+            </ul>
+          </div>
+          <div class="imagen">
+            <img src="img/citas.jpeg" alt="citas" />
+          </div>
+        </article>
+      </section>
     </main>
-    
+
     <footer>
-        <div class="linksSection">
-            <h3>Informacion</h3>
-           <ul>
-            <li>
-                <a href="tributo_beta.html" target="_blank">
-                    Mas sobre Lord Gabe Newell
-                    
-                </a>
-                <img style="margin-top: 1rem;" src="img/valve_logo.png" alt="valve logo">
-            </li>
-           </ul>
-            
-        </div>
-        <div class="linksSection">
-            <h3>Altruismo</h3>
-            <ul>
-              <li><a href="https://www.wikiwand.com/es/Gabe_Newell" target="_blank">
-                Newell es el propietario de Inkfish
+      <div class="linksSection">
+        <h3>Informacion</h3>
+        <ul>
+          <li>
+            <a href="tributo_beta.html" target="_blank">
+              Mas sobre Lord Gabe Newell
+              <img
+                style="margin-top: 1rem"
+                src="img/valve_logo.png"
+                alt="valve logo"
+              />
             </a>
-            </li>
-            <img style="margin-top: 1rem;" src="img/logo_steam_footer.png" alt="valve">
-            </ul>
-          </div>
-          <div class="linksSection">
-            <h3>Linkedin</h3>
-            <ul>
-              <li>
-                <a href="https://www.linkedin.com/in/gabe-newell-00611444/" target="_blank">
-                CEO at Valve corporation
-                 </a> 
-            </li>
-            <img style="margin-top: 1rem;" src="img/linkedin48.png" alt="linkedin">
-            </ul>
-          </div>
-          <div class="linksSection">
-            <h3>Video juegos</h3>
-            <ul>
-              <li>
-                <a href="https://store.steampowered.com/app/407420/Gabe_Newell_Simulator/?l=spanish" target="_blank">
-                 Gabe Newell Simulator
-                </a>
-                 
-             </li>
-             <img style="margin-top: 1rem;"  src="img/steam48.png" alt="steam">
-            </ul>
-          </div>
-        
+          </li>
+        </ul>
+      </div>
+      <div class="linksSection">
+        <h3>Altruismo</h3>
+        <ul>
+          <li>
+            <a href="https://www.wikiwand.com/es/Gabe_Newell" target="_blank">
+              Newell es el propietario de Inkfish
+              <img
+                style="margin-top: 1rem"
+                src="img/logo_steam_footer.png"
+                alt="valve"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="linksSection">
+        <h3>Linkedin</h3>
+        <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/gabe-newell-00611444/"
+              target="_blank"
+            >
+              CEO at Valve corporation
+              <img
+                style="margin-top: 1rem"
+                src="img/linkedin48.png"
+                alt="linkedin"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="linksSection">
+        <h3>Video juegos</h3>
+        <ul>
+          <li>
+            <a
+              href="https://store.steampowered.com/app/407420/Gabe_Newell_Simulator/?l=spanish"
+              target="_blank"
+            >
+              Gabe Newell Simulator
+              <img style="margin-top: 1rem" src="img/steam48.png" alt="steam" />
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
